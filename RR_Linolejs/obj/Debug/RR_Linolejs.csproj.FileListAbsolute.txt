@@ -1,0 +1,10 @@
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\obj\Debug\RR_Linolejs.csprojAssemblyReference.cache
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\obj\Debug\RR_Linolejs.Form1.resources
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\obj\Debug\RR_Linolejs.Properties.Resources.resources
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\obj\Debug\RR_Linolejs.csproj.GenerateResource.cache
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\obj\Debug\RR_Linolejs.csproj.CoreCompileInputs.cache
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\bin\Debug\RR_Linolejs.exe.config
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\bin\Debug\RR_Linolejs.exe
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\bin\Debug\RR_Linolejs.pdb
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\obj\Debug\RR_Linolejs.exe
+Z:\Programmeshana\RR_Linolejs\RR_Linolejs\obj\Debug\RR_Linolejs.pdb
