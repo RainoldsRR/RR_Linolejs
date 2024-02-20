@@ -34,7 +34,7 @@ namespace RR_Linolejs
 
         private void ievadcena_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void ievadrulplatums_TextChanged(object sender, EventArgs e)
@@ -42,10 +42,27 @@ namespace RR_Linolejs
 
         }
 
-        private void izvadizmaksas_TextChanged(double cena, int linoleja_platums, int telpas_platums, int telpas_garums)
+        private void izvadizmaksas_TextChanged(object sender, EventArgs e)
         {
-            int telpas_izmers = telpas_platums * telpas_garums;
-            double izmaksas = cena * telpas_garums / linoleja_platums;
+           
+        }
+
+        private void aprekinat_Click(object sender, EventArgs e)
+        {
+            double cena1 = Convert.ToDouble(ievadcena.Text);
+            int linoleja_platums1 = Convert.ToInt32(ievadrulplatums.Text);
+            int telpas_garums1 = Convert.ToInt32(ievadtelpgarums.Text);
+            int telpas_platums1 = Convert.ToInt32(ievadtelpplatums.Text);
+
+            gridas_izmaksa(cena1, linoleja_platums1, telpas_platums1, telpas_garums1);
+            //double cena, int linoleja_platums, int telpas_platums, int telpas_garums
+        }
+        public void gridas_izmaksa(double cena, int linoleja_platums, int telpas_platums, int telpas_garums)
+        { 
+         int telpas_izmers = telpas_platums * telpas_garums;
+            double gizvadizmaksas = cena * (telpas_izmers / linoleja_platums);
+
+            izvadizmaksas.Text = gizvadizmaksas.ToString();
         }
     }
 }

@@ -96,6 +96,7 @@
             this.aprekinat.TabIndex = 5;
             this.aprekinat.Text = "Aprēķināt";
             this.aprekinat.UseVisualStyleBackColor = true;
+            this.aprekinat.Click += new System.EventHandler(this.aprekinat_Click);
             // 
             // ievadcena
             // 
@@ -126,7 +127,13 @@
             this.ievadtelpgarums.Name = "ievadtelpgarums";
             this.ievadtelpgarums.Size = new System.Drawing.Size(100, 20);
             this.ievadtelpgarums.TabIndex = 9;
-        
+            // 
+            // izvadizmaksas
+            // 
+            this.izvadizmaksas.Location = new System.Drawing.Point(130, 189);
+            this.izvadizmaksas.Name = "izvadizmaksas";
+            this.izvadizmaksas.Size = new System.Drawing.Size(100, 20);
+            this.izvadizmaksas.TabIndex = 0;
             // 
             // Form1
             // 
